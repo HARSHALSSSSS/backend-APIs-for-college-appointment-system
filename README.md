@@ -44,13 +44,13 @@ npm install --save-dev nodemon dotenv
 API Endpoints
 Authentication
 ### POST /auth/register: Register a new user.
-json
-Copy code
+####
 {
   "username": "example",
   "password": "password123",
   "role": "professor" // or "student"
 }
+####
 POST /auth/login: Login and receive a JWT token.
 json
 Copy code
@@ -58,6 +58,7 @@ Copy code
   "username": "example",
   "password": "password123"
 }
+####
 Professor Endpoints
 POST /professors/availability: Add availability slots (requires professor role).
 json
@@ -66,8 +67,11 @@ Copy code
   "timeSlots": ["2024-12-10T09:00:00Z", "2024-12-10T10:00:00Z"]
 }
 GET /professors/appointments: View professor's appointments.
+
 Student Endpoints
+
 GET /students/professors/:id/availability: View a professor's availability.
+
 POST /students/appointments: Book an appointment with a professor.
 json
 Copy code
@@ -75,4 +79,5 @@ Copy code
   "professorId": 1,
   "timeSlot": "2024-12-10T09:00:00Z"
 }
+
 GET /students/appointments: View the student's appointments.
