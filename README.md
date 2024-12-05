@@ -22,27 +22,28 @@ Run the application:
 
 # Libraries to Install
 The following dependencies are used in this project:
+#
 Production Dependencies
-express: Web framework for Node.js.
+
+express: Web framework for Node.js
+
 bcrypt: Library for hashing passwords.
+
 jsonwebtoken: For JWT-based authentication.
+
 sequelize: ORM for database interaction.
+
 sqlite3: SQLite database driver.
+
 Install these dependencies with:
 
-Copy code
-npm install express bcrypt jsonwebtoken sequelize sqlite3
-Development Dependencies
-nodemon: Automatically restarts the server when code changes are detected.
-dotenv: For managing environment variables (optional, based on your setup).
-Install these development dependencies with:
 
 bash
 Copy code
 npm install --save-dev nodemon dotenv
 API Endpoints
 Authentication
-POST /auth/register: Register a new user.
+### POST /auth/register: Register a new user.
 json
 Copy code
 {
