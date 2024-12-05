@@ -85,5 +85,6 @@ Copy code
 
 GET /students/appointments: View the student's appointments.
  # screenshot 
- ![](https://github.com/HARSHALSSSSS/backend-APIs-for-college-appointment-system/blob/main/Screenshot%202024-12-05%20142813.png)
-
+ ![](https://github.com/HARSHALSSSSS/backend-APIs-for-college-appointment-system/blob/main/Screenshot%202024-12-05%20142813.png)[
+ 
+![](https://github.com/HARSHALSSSSS/backend-APIs-for-college-appointment-system/blob/main/Screenshot%202024-12-05%20142519.png)
