@@ -52,6 +52,7 @@ Authentication
 }
 ####
 POST /auth/login: Login and receive a JWT token.
+
 json
 Copy code
 {
@@ -61,6 +62,7 @@ Copy code
 ####
 Professor Endpoints
 POST /professors/availability: Add availability slots (requires professor role).
+
 json
 Copy code
 {
@@ -73,6 +75,7 @@ Student Endpoints
 GET /students/professors/:id/availability: View a professor's availability.
 
 POST /students/appointments: Book an appointment with a professor.
+
 json
 Copy code
 {
@@ -81,3 +84,6 @@ Copy code
 }
 
 GET /students/appointments: View the student's appointments.
+ # screenshot 
+ ![](https://example.com/path-to-your-image.png)
+
